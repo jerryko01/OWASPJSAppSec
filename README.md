@@ -25,6 +25,11 @@
 > [But this doesn't have anything to do with juice.](https://twitter.com/coderPatros/status/1199268774626488320)
 > ([@coderPatros' wife](https://twitter.com/coderPatros))
 
+In order to practice real-world vulnerabilities in SDLC, I will use SAST, DAST, and SCA tools to remediate various
+and numerous vulnerabilities presented in this code base with a "shift left" principle. The tools I will use are 
+Snyk for SAST and SCA and Rapid7 InisghtAppSec for DAST. I will also utilize Gitlab to establish a CI/CD Pipeline and
+include DAST testing for continuous scanning and vulnerability remediation.
+
 OWASP Juice Shop is probably the most modern and sophisticated insecure web application! It can be used in security
 trainings, awareness demos, CTFs and as a guinea pig for security tools! Juice Shop encompasses vulnerabilities from the
 entire
